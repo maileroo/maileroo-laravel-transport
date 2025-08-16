@@ -22,7 +22,7 @@ class Maileroo extends Facade {
     }
 
     public static function attachmentFromContent(string $path, string $name, ?string $contentType = null, bool $inline = false): Attachment {
-        return Attachment::fromContent($path, $name, $contentType, $inline);
+        return Attachment::fromContent($path, $name, $contentType, $inline, false);
     }
 
     public static function attachmentFromFile(string $path, ?string $contentType = null, bool $inline = false): Attachment {

@@ -1,6 +1,5 @@
 {
   "name": "maileroo/maileroo-laravel-transport",
-  "version": "0.1.0",
   "description": "This is a Laravel transport for the Maileroo email service, allowing you to send emails using the Maileroo API.",
   "type": "library",
   "license": "MIT",
