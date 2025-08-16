@@ -1,0 +1,25 @@
+{
+  "name": "maileroo/maileroo-laravel-transport",
+  "version": "0.1.0",
+  "description": "This is a Laravel transport for the Maileroo email service, allowing you to send emails using the Maileroo API.",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": "^8.0",
+    "illuminate/mail": "*",
+    "maileroo/maileroo-php-sdk": "^2.0.0",
+    "symfony/mime": "^6.0|^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Maileroo\\LaravelTransport\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Maileroo\\LaravelTransport\\MailerooTransportServiceProvider"
+      ]
+    }
+  }
+}
